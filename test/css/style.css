@@ -136,7 +136,13 @@ box-shadow: 0 0 8px 3px #555;}
 .warengruppen .kleintier .button span:hover {color:#084973;}
 
 /*** FOOTER ***/
-#footer {background-color:#fff; height:155px; border:1px solid #ccc; position:relative; z-index:9999;
+#footer {background-color:#fff; border:1px solid #ccc; position:relative; z-index:9999;
 -moz-box-shadow: 0 2px 10px 2px #555;
 -webkit-box-shadow: 0 2px 10px 2px #555;
 box-shadow: 0 2px 10px 2px #555;}
+
+.ft_navigation {width:900px; margin:0px auto; margin-left:200px;}
+.ft_navigation ul {list-style:none; float:left;}
+.ft_navigation li a {text-decoration:none; color:#0a72b5;}
+.ft_navigation li a:hover { color:#f29400;}
+.ft_navigation ul.right {margin-left:55px;}
