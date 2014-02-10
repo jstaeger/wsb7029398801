@@ -26,57 +26,48 @@ box-shadow: 0 0 8px 3px #555;}
 .logo {float: left; background-image:url(../media/logo.png); width:252px; height:60px; margin-left:85px; margin-top:15px;}
 .dash {background-image:url(../media/dash.gif); background-repeat:repeat-x; height:15px; margin-top:10px;}
 
+/*** NAVIGATION ***/
 .navigation {float:left; margin-top:40px; margin-left:230px;}
 .navigation ul {list-style:none;}
 .navigation ul li {display:inline; padding:0px 40px 0px 0px;}
 .navigation ul li a {color:#303030; text-decoration:none; padding-bottom:30px;}
 .navigation ul li a:hover {color:#084973; text-decoration:none;}
 .navigation li ul { position: absolute; display: none; } 
-
 .navigation li:hover ul {display: block; margin:0px; margin-top:10px; padding:10px; background-color:#fdf4a0; z-index:99999; border:1px solid #f2e147; 
 -moz-box-shadow: 0 2px 4px 2px #888;
 -webkit-box-shadow: 0 2px 4px 2px #888;
-box-shadow: 0 2px 4px 2px #888;
-}
+box-shadow: 0 2px 4px 2px #888;}
 .navigation li ul li { float: none; display:inline; line-height:28px; margin:0px; padding:0px 20px 0px 20px; background:none; margin-left:-10px;}
 .navigation li ul li a { position: relative; color: #0a71b4;}
-
 .navigation li:hover ul .arrow {position:absolute; top:-12px; left:90px; background-image:url(media/subnaviarrow.png); width:16px; height:13px;}
 
+/*** CONTENT ***/
 #content {position: relative; margin:0px auto;  width:910px; margin-top:-30px; border:1px solid #ccc; background-color:#fff; z-index:99;
 -moz-box-shadow: 0 0 8px 3px #555;
 -webkit-box-shadow: 0 0 8px 3px #555;
 box-shadow: 0 0 8px 3px #555}
-#content .text {margin:30px 0px 40px 20px; width:850px; }
+#content .text {margin:50px 0px 40px 20px; width:850px; }
 #content .text p {margin-top:0px; color:#303030; font-size:12px; line-height:21px;}
 #content .text span {font-weight:bold; color:#0a71b4;}
+#content .text .left {width:480px; line-height:24px; float:left; padding-right:40px; border-right:1px solid #303030;}
+#content .text .right {width:280px; float:right; padding-left:10px;margin-top:-35px;}
 
-#content .text .left {width:480px;  float:left; padding-right:30px; border-right:1px solid #303030;}
-#content .text .right {width:280px; float:right; margin-top:-35px;}
-
+/*** SLIDER ***/
 #slider {  width: 865px; margin-top:80px; margin-left:20px; border:1px solid #ccc;
 -moz-box-shadow: 0 2px 4px 2px #888;
 -webkit-box-shadow: 0 2px 4px 2px #888;
 box-shadow: 0 2px 4px 2px #888;}
-
 #slider .text {padding:10px 20px 10px 10px; width:860px;}
-
-
 #s3slider {
    width: 865px; /* important to be same as image width */
    height: 300px; /* important to be same as image height */
    position: relative; /* important */
-   overflow: hidden; /* important */
-   
-}
-
+   overflow: hidden; /* important */}
 #s3sliderContent {
    width: 865px; /* important to be same as image width or wider */
    position: absolute; /* important */
    top: 0; /* important */
-   margin-left: 0; /* important */
-}
-
+   margin-left: 0; /* important */}
 .s3sliderImage {
    float: left; /* important */
    position: relative; /* important */
@@ -86,7 +77,6 @@ box-shadow: 0 2px 4px 2px #888;}
    left:-40px;
    top:-14px;
 }
-
 .s3sliderImage span {
    position: absolute; /* important */
    left: 0;
@@ -96,30 +86,7 @@ box-shadow: 0 2px 4px 2px #888;}
    display: none; /* important */
    top: 0;
 }
-
-.trenner {background-image:url(media/trenner.png); width:1137px; height:17px; margin:50px 0px 30px -10px;}
-
 #slider .content {margin:0px 0px 40px 20px; }
-.warengruppen {float:left; margin-right:20px; border:1px solid #ccc; width:340px; background-color:#fff;
--moz-box-shadow: 0 0 8px 3px #555;
--webkit-box-shadow: 0 0 8px 3px #555;
-box-shadow: 0 0 8px 3px #555;}
-
-.warengruppen .hund {background-image:url(media/wg_hund.jpg); width:340px; height:364px; position:relative;}
-.warengruppen .hund .button {background-image:url(media/einklinker.png); width:196px; height:82px; position:absolute; bottom:20px; right:-18px;}
-.warengruppen .hund .button span {color:#fff; font-family: 'lobster_1.3regular', serif; font-size:24px; margin-left:50px; line-height:70px;}
-.warengruppen .hund .button span:hover {color:#084973;}
-
-.warengruppen .katze {background-image:url(media/wg_katze.jpg); width:340px; height:364px;position:relative;}
- .katze .button {background-image:url(media/einklinker.png); width:196px; height:82px; position:absolute; bottom:20px; right:-18px;}
-.katze .button span {color:#fff; font-family: 'lobster_1.3regular', serif; font-size:24px; margin-left:45px; line-height:70px;}
-.warengruppen .katze .button span:hover {color:#084973;}
-
-.warengruppen .kleintier {background-image:url(media/wg_kleintier.jpg); width:340px; height:364px;position:relative;}
-.warengruppen .kleintier .button {background-image:url(media/einklinker.png); width:196px; height:82px; position:absolute; bottom:20px; right:-18px;}
-.warengruppen .kleintier .button span {color:#fff; font-family: 'lobster_1.3regular', serif; font-size:24px; margin-left:45px; line-height:70px;}
-.warengruppen .kleintier .button span:hover {color:#084973;}
-
 #slider .content  .button_marken {background-color:#0a71b4; padding:10px; height:20px; width:220px; border-radius: 10px; border:1px solid #03F;}
 #slider .content  .button_marken a {color:#fff; font-family: 'lobster_1.3regular', serif; font-size:21px; text-decoration:none; line-height:20px;}
 #slider .content  .button_marken a:hover {color:#03F; text-decoration:none;}
@@ -127,4 +94,34 @@ box-shadow: 0 0 8px 3px #555;}
 #slider .text a {color:#333; text-decoration:none;}
 #slider .text li {color:#333; padding-bottom:5px;}
 
-#footer {background-color:#fbef80; height:110px; border:1px solid #f2e147; }
+.trenner {background-image:url(media/trenner.png); width:1137px; height:17px; margin:50px 0px 30px -10px;}
+
+/*** OVERLAY ***/
+#overlay {border:1px solid #ccc; position:relative; z-index:99999; width:975px; height:180px; background-color:#fff; margin-left:-35px;
+-moz-box-shadow: 0 2px 4px 2px #888;
+-webkit-box-shadow: 0 2px 4px 2px #888;
+box-shadow: 0 2px 4px 2px #888;}
+
+/*** WARENGRUPPEN ***/
+.warengruppen {float:left; margin-right:20px; border:1px solid #ccc; width:340px; background-color:#fff;
+-moz-box-shadow: 0 0 8px 3px #555;
+-webkit-box-shadow: 0 0 8px 3px #555;
+box-shadow: 0 0 8px 3px #555;}
+.warengruppen .hund {background-image:url(media/wg_hund.jpg); width:340px; height:364px; position:relative;}
+.warengruppen .hund .button {background-image:url(media/einklinker.png); width:196px; height:82px; position:absolute; bottom:20px; right:-18px;}
+.warengruppen .hund .button span {color:#fff; font-family: 'lobster_1.3regular', serif; font-size:24px; margin-left:50px; line-height:70px;}
+.warengruppen .hund .button span:hover {color:#084973;}
+.warengruppen .katze {background-image:url(media/wg_katze.jpg); width:340px; height:364px;position:relative;}
+ .katze .button {background-image:url(media/einklinker.png); width:196px; height:82px; position:absolute; bottom:20px; right:-18px;}
+.katze .button span {color:#fff; font-family: 'lobster_1.3regular', serif; font-size:24px; margin-left:45px; line-height:70px;}
+.warengruppen .katze .button span:hover {color:#084973;}
+.warengruppen .kleintier {background-image:url(media/wg_kleintier.jpg); width:340px; height:364px;position:relative;}
+.warengruppen .kleintier .button {background-image:url(media/einklinker.png); width:196px; height:82px; position:absolute; bottom:20px; right:-18px;}
+.warengruppen .kleintier .button span {color:#fff; font-family: 'lobster_1.3regular', serif; font-size:24px; margin-left:45px; line-height:70px;}
+.warengruppen .kleintier .button span:hover {color:#084973;}
+
+/*** FOOTER ***/
+#footer {background-color:#fff; height:155px; border:1px solid #ccc; position:relative; z-index:9999;
+-moz-box-shadow: 0 0 8px 3px #555;
+-webkit-box-shadow: 0 0 8px 3px #555;
+box-shadow: 0 0 8px 3px #555;}
