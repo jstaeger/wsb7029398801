@@ -1,0 +1,95 @@
+/*----------------------------------------------------------------------------
+	colorscheme1.css for colorscheme 4
+	this css-file contains all definitions, that depend on the colorscheme.
+	(c) Schlund + Partner AG
+	----------------------------------------------------------------------------*/
+	/*-- main container --------------------------------------------------------*/
+	#container
+	{
+	background:url(images/static/contentbg.jpg) repeat-y top left #e9ddc9;
+	}	/*--- header ---------------------------------------------------------------*/
+	#header
+	{
+	background:url(images/static/headerbg.jpg) ;
+	}
+	/*--- main navigation ------------------------------------------------------*/
+	#main_nav_container
+	{
+	background:url(images/static/navbg.jpg) repeat-y;
+	}
+  /*--- footer ---------------------------------------------------------------*/
+  #footer {
+  background-color: transparent;
+  background-image: url(images/static/footerbg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  }
+
+	/*----------------------------------------------------------------------------
+	default-styles for html-elements
+	----------------------------------------------------------------------------*/
+	/*--- body -----------------------------------------------------------------*/
+	body#main_body
+	{
+	color:#000;
+	background:#e9ddc9 url(images/static/pgbk.jpg) top left;
+	}
+	/*--- headings -------------------------------------------------------------*/
+	#content_container h1
+	{
+	background:url("images/static/header1bg.gif") no-repeat;
+	}
+	#content_container h2
+	{
+	background:url("images/static/header2bg.gif") no-repeat;
+	}
+	#content_container h3
+	{
+	background:url("images/static/header2bg.gif") no-repeat;
+	}
+	/*--- tables ---------------------------------------------------------------*/
+	#content_container table
+	{
+	border-color:#fd750c;
+	}
+	#content_container th
+	{
+	background-color:#fd750c;
+	color	:	#fff;
+	padding:16px 2px 5px 2px;
+	}
+	#content_container tr.odd
+	{
+	color:#000;
+	background-color:#feeed6;
+	padding:3px 2px 3px 2px;
+	}
+	#content_container tr.even
+	{
+	color:#000;
+	background-color:#fee7cc;
+	padding:3px 2px 3px 2px;
+	}
+	/*--- forms ----------------------------------------------------------------*/
+	fieldset
+	{
+	border-color:#997d3e;
+	}
+	legend
+	{
+	color:#000;
+	}
+	label
+	{
+	color:#000;
+	}
+	input
+	{
+	border-color:#997d3e;
+	}
+	textarea
+	{
+	border-color:#997d3e;
+	}
+	/*--------------------------------------------------------------------------*/
+

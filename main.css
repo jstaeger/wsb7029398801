@@ -1,0 +1,294 @@
+/*----------------------------------------------------------------------------
+	main.css
+	this css-file contains all definitions, that are independend from the
+	colorschemes.
+	(c) Schlund + Partner AG
+	----------------------------------------------------------------------
+	Modified and extended by Barti Bartman for the Sports-Template
+	This CSS-File uses the original "Tanteks Box Modell Hack"
+	http://www.tantek.com/CSS/Examples/boxmodelhack.html
+	NOTE:
+	Older W3C CSS validators return errors when the voice-family property
+	is used in a 'screen' style sheet. This is an error in the W3C CSS
+	validator itself. The validator should report a warning, not an error,
+	when properties which are unsupported by a particular medium are used,
+	and this has been reported to the W3C:
+	----------------------------------------------------------------------------*/
+	/*----------------------------------------------------------------------------
+	styles for specific classes and ids
+	----------------------------------------------------------------------------*/
+	/*-- global container ------------------------------------------------------*/
+	#container
+	{
+	position:relative;
+	width:775px;
+	margin:0px auto;
+	padding:0px;
+	text-align:left;
+	}
+	/*-- main container: contains all between header and footer ----------------*/
+	#main_container
+	{
+	padding:0px 34px 0px 30px;
+	margin:0;
+	width:775px;
+	voice-family:"\"}\"";
+	voice-family:inherit;
+	width:711px;
+	}
+	html>body #main_container
+	{
+	width:711px;
+	}
+	#sub_container2
+	{
+	width:535px;
+	position:relative;
+	top:0px;
+	float:left;
+	padding:0;
+	left:10px;
+	overflow:hidden;	
+	}
+	
+	#content_container
+	{
+	border: 0px;
+	width:525px;
+	margin: 0px; /*margin:0px 0px 20px 0px;*/
+	padding:0px;
+  line-height: 1.7;
+	}
+	
+	#left_column_container
+	{
+	position:relative;
+	top:0px;
+	float:right;
+	width:157px;
+	margin:0px;
+	padding:0px;
+	}
+	/*--- header ---------------------------------------------------------------*/
+	#header
+	{
+	position:relative;
+	top:0px;
+	left:0px;
+	height:252px;
+	width:775px;
+	margin:0px;
+	padding:0px;
+	}
+	/*--- key visual -----------------------------------------------------------*/
+	#key_visual
+	{
+	position:absolute;
+	top:0px;
+	left:17px;
+	height:249px;
+	width:433px;
+	}
+	/*--- logo -----------------------------------------------------------------*/
+	#logo
+	{
+	position:absolute;
+	top:4px;
+	left:476px;
+	height:106px;
+	width:229px;
+	}
+	/*--- caption (as text or background image) --------------------------------*/
+	#slogan
+	{
+	position:relative;
+	top:195px;
+	left:460px;
+	z-index:1;
+	width:260px;
+	letter-spacing: 1px;
+	}
+	#image_caption {
+	}
+	/*--- main navigation ------------------------------------------------------*/
+	#main_nav_container
+	{
+	float:left;
+	overflow:hidden;
+	z-index:1;
+	position:relative;
+	width:775px;
+	height:78px;
+	padding:5px 65px 5px 65px;
+	voice-family:"\"}\"";
+	voice-family:inherit;
+	width:645px;
+	height:68px;
+	}
+	html>body #main_nav_container
+	{
+	width:645px;
+	height:68px;
+	}
+	#main_nav_list
+	{
+	position:relative;
+	width:645px;
+	top:0px;
+	left:0px;
+	height:auto;
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	}
+	#main_nav_list li
+	{
+	float:left;
+	margin:0px;
+	padding:0px;
+	height:28px;
+	}
+	/*--- main navigation items ------------------------------------------------*/
+	#main_nav_list a
+	{
+	float:left;
+	display:block;
+	height:28px;
+	margin:0px;
+	padding: 2px 18px 0px 13px;
+	line-height:22px;
+	text-align:center;
+	background:transparent;
+	voice-family:"\"}\"";
+	voice-family:inherit;
+	height:26px;
+	}
+	html>body #main_nav_list a
+	{
+	height:28px;
+	}
+	span.main_nav_item_text
+	{
+	margin:0px 0px 0px 3px;
+	}
+	span.main_nav_active_item_text
+	{
+	margin:0px 0px 0px 3px;
+	}
+	/*--- container for the subnavigation --------------------------------------*/
+	.sub_nav_container
+	{
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	}
+	/*--- subnavigation --------------------------------------------------------*/
+	.sub_nav_list
+	{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	list-style-type:none;
+	}
+	.sub_nav_list li
+	{
+	margin:0px 0px 2px 0px;
+	padding:0px;
+	}
+	/*--- subnavigation items --------------------------------------------------*/
+	.sub_nav_list a
+	{
+	display:block;
+	width:153px;
+	padding:0px 0px 0px 23px;
+	line-height:30px;
+	text-align:left;
+	voice-family:"\"}\"";
+	voice-family:inherit;
+	width:130px;
+	}
+	html>body #sub_nav_list a
+	{
+	width:130px;
+	}
+	
+	/*--- footer ---------------------------------------------------------------*/
+	#footer
+	{
+	clear:both;
+	height:112px;
+	width:735px;
+	margin:0 23px 0 17px;
+	padding:0px;
+	}
+	#footer_text
+	{
+	margin:0px 30px 0px 30px;
+	padding:45px 0px 0px 0px;
+	text-align:center;
+	}
+	/*----------------------------------------------------------------------------
+	default-styles for html-elements
+	----------------------------------------------------------------------------*/
+	/*--- body -----------------------------------------------------------------*/
+	body#main_body
+	{
+	margin:0px;
+	padding:0px;
+	font-size:x-small; /* IE5 Win */
+	font-size:small;
+	text-align:center;
+	}
+
+/*--- paragraph ------------------------------------------------------------*/
+	#content_container p
+	{
+	margin:5px 0px 20px 0px;
+	padding:0px;
+  line-height: 1.7;
+	}
+	/*--- headings -------------------------------------------------------------*/
+	#content_container h1
+	{
+	padding:5px 0px 5px 50px;
+	}
+	#content_container h2
+	{
+	padding:5px 0px 3px 45px;
+	}
+	#content_container h3
+	{
+	padding:8px 0px 2px 45px;
+	}
+	/*--- tables ---------------------------------------------------------------*/
+
+  #content_container table
+	{
+	border-width:1px;
+	border-spacing:0px;
+	border-style:solid;
+	}
+	#content_container td {
+	border-collapse:collapse;
+	}
+	/*--- forms ----------------------------------------------------------------*/
+	#content_container fieldset
+	{
+	padding:15px;
+	border-width:1px;
+	border-style:solid;
+	}
+	#content_container input
+	{
+	border-width:1px;
+	border-style:solid;
+	}
+	#content_container textarea
+	{
+	border-width:1px;
+	border-style:solid;
+	}
+	#content_container button {
+	color:#FFF;
+	background:transparent url("images/static/inputbutton.gif") top left;
+	}
+	/*--------------------------------------------------------------------------*/

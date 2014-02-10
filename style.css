@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'lobster_1.3regular';
+    src: url('lobster_1.3-webfont.eot');
+    src: url('lobster_1.3-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lobster_1.3-webfont.woff') format('woff'),
+         url('lobster_1.3-webfont.ttf') format('truetype'),
+         url('lobster_1.3-webfont.svg#lobster_1.3regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {background-image:url(media/bg.jpg); background-repeat:repeat; font-family:Arial, Helvetica, sans-serif; font-size:14px; margin:0px auto;}
+
+h1 {font-family: 'lobster_1.3regular', serif; font-size:60px; text-shadow: 1px 1px #000000; color:#0a71b4; line-height:30px;}
+h2 {font-family: 'lobster_1.3regular', serif; font-size:48px; text-shadow: 1px 1px #000000; color:#0a71b4; line-height:30px;}
+h3 {font-size:16px; font-weight:bold; color:#333;}
+h3 a {font-size:16px; font-weight:bold; color:#333; text-decoration:none}
+.break {clear:both;}
+
+#wrapper {width:1280px; margin:0px auto;}
+
+
+#header {background-color:#fbef80; height:60px; border:1px solid #f2e147; 
+-moz-box-shadow: 0 0 8px 3px #555;
+-webkit-box-shadow: 0 0 8px 3px #555;
+box-shadow: 0 0 8px 3px #555;}
+.logo {float: left; background-image:url(media/logo.png); width:258px; height:116px; margin-left:85px; margin-top:13px;}
+
+.navigation {float:left; margin-top:13px;}
+.navigation ul {list-style:none;}
+.navigation ul li {display:inline; padding:0px 40px 0px 0px;}
+.navigation ul li a {color:#0a71b4; text-decoration:none; padding-bottom:30px;}
+.navigation ul li a:hover {color:#084973; text-decoration:none;}
+.navigation li ul { position: absolute; display: none; } 
+
+.navigation li:hover ul {display: block; margin:0px; margin-top:10px; padding:10px; background-color:#fdf4a0; z-index:99999; border:1px solid #f2e147; 
+-moz-box-shadow: 0 2px 4px 2px #888;
+-webkit-box-shadow: 0 2px 4px 2px #888;
+box-shadow: 0 2px 4px 2px #888;
+}
+.navigation li ul li { float: none; display:inline; line-height:28px; margin:0px; padding:0px 20px 0px 20px; background:none; margin-left:-10px;}
+.navigation li ul li a { position: relative; color: #0a71b4;}
+
+.navigation li:hover ul .arrow {position:absolute; top:-12px; left:90px; background-image:url(media/subnaviarrow.png); width:16px; height:13px;}
+
+#content {margin:0px auto;  width:1080px; margin-top:120px; margin-bottom:50px;}
+#content .text {margin:20px 0px 40px 10px; width:850px;}
+#content .text p {margin-top:0px; color:#333; line-height:20px;}
+#content .text span {font-weight:bold; color:#0a71b4;}
+
+#slider {border:1px solid #ccc; background-color:#fff;  width: 1117px; margin-top:20px;
+-moz-box-shadow: 0 0 8px 3px #555;
+-webkit-box-shadow: 0 0 8px 3px #555;
+box-shadow: 0 0 8px 3px #555;}
+
+#slider .text {padding:10px 20px 10px 10px; width:860px;}
+
+#s3slider {
+   width: 1117px; /* important to be same as image width */
+   height: 541px; /* important to be same as image height */
+   position: relative; /* important */
+   overflow: hidden; /* important */
+   
+}
+
+#s3sliderContent {
+   width: 1117px; /* important to be same as image width or wider */
+   position: absolute; /* important */
+   top: 0; /* important */
+   margin-left: 0; /* important */
+}
+
+.s3sliderImage {
+   float: left; /* important */
+   position: relative; /* important */
+   display: none; /* important */
+   margin:0px;
+   padding:0px;
+   left:-40px;
+   top:-14px;
+}
+
+.s3sliderImage span {
+   position: absolute; /* important */
+   left: 0;
+   font: 10px/15px Arial, Helvetica, sans-serif;
+   padding: 10px 13px;
+   width: 0px;
+   display: none; /* important */
+   top: 0;
+}
+
+.trenner {background-image:url(media/trenner.png); width:1137px; height:17px; margin:50px 0px 30px -10px;}
+
+#slider .content {margin:0px 0px 40px 20px; }
+.warengruppen {float:left; margin-right:20px; border:1px solid #ccc; width:340px; background-color:#fff;
+-moz-box-shadow: 0 0 8px 3px #555;
+-webkit-box-shadow: 0 0 8px 3px #555;
+box-shadow: 0 0 8px 3px #555;}
+
+.warengruppen .hund {background-image:url(media/wg_hund.jpg); width:340px; height:364px; position:relative;}
+.warengruppen .hund .button {background-image:url(media/einklinker.png); width:196px; height:82px; position:absolute; bottom:20px; right:-18px;}
+.warengruppen .hund .button span {color:#fff; font-family: 'lobster_1.3regular', serif; font-size:24px; margin-left:50px; line-height:70px;}
+.warengruppen .hund .button span:hover {color:#084973;}
+
+.warengruppen .katze {background-image:url(media/wg_katze.jpg); width:340px; height:364px;position:relative;}
+ .katze .button {background-image:url(media/einklinker.png); width:196px; height:82px; position:absolute; bottom:20px; right:-18px;}
+.katze .button span {color:#fff; font-family: 'lobster_1.3regular', serif; font-size:24px; margin-left:45px; line-height:70px;}
+.warengruppen .katze .button span:hover {color:#084973;}
+
+.warengruppen .kleintier {background-image:url(media/wg_kleintier.jpg); width:340px; height:364px;position:relative;}
+.warengruppen .kleintier .button {background-image:url(media/einklinker.png); width:196px; height:82px; position:absolute; bottom:20px; right:-18px;}
+.warengruppen .kleintier .button span {color:#fff; font-family: 'lobster_1.3regular', serif; font-size:24px; margin-left:45px; line-height:70px;}
+.warengruppen .kleintier .button span:hover {color:#084973;}
+
+#slider .content  .button_marken {background-color:#0a71b4; padding:10px; height:20px; width:220px; border-radius: 10px; border:1px solid #03F;}
+#slider .content  .button_marken a {color:#fff; font-family: 'lobster_1.3regular', serif; font-size:21px; text-decoration:none; line-height:20px;}
+#slider .content  .button_marken a:hover {color:#03F; text-decoration:none;}
+
+#slider .text a {color:#333; text-decoration:none;}
+#slider .text li {color:#333; padding-bottom:5px;}
+
+#footer {background-color:#fbef80; height:110px; border:1px solid #f2e147; }
