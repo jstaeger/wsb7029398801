@@ -35,10 +35,10 @@ box-shadow: 0 -2px 10px 2px #555;}
 .dropdown_4columns {margin:4px auto; float:left; position:absolute; left:-999em; /* Hides the drop down */ text-align:left; padding:10px 5px 10px 5px; border:1px solid #ccc; background:#fff;
 -webkit-border-radius: 0px 5px 5px 5px;
 border-radius: 5px 5px 5px 5px;}
-.dropdown_4columns {width: 560px;}
+.dropdown_4columns {width: 530px;}
 .navigation li:hover .dropdown_4columns {left:-1px;top:auto;}
 .col_1 { display:inline; float: left; position: relative; margin-left: 5px; margin-right: 5px;}
-.col_1 {width:130px;}
+.col_1 {width:110px;}
 .navigation p, .navigation h2, .navigation h3, .navigation ul li { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; line-height:21px; font-size:12px; text-align:left; text-shadow: 1px 1px 1px #FFFFFF;}
 .navigation h2 { font-size:21px; font-weight:400; letter-spacing:-1px; margin:7px 0 14px 0; padding-bottom:14px; border-bottom:1px dashed #ccc;}
 .navigation h3 { font-size:14px; margin:7px 0 14px 0; padding-bottom:7px; border-bottom:1px solid #303030; }
@@ -138,7 +138,7 @@ box-shadow: 0 2px 10px 1px #ccc;}
 
 -webkit-box-shadow: 0 2px 10px 2px #555;
 box-shadow: 0 2px 10px 2px #555;}
-
+#footer a {text-decoration:none;}
 .ft_navigation {width:900px; margin-left:200px; font-size:11px;}
 .ft_navigation h3 {font-size:14px;}
 .ft_navigation ul {list-style:none; float:left;}
