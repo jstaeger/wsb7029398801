@@ -64,7 +64,10 @@ box-shadow: 0 -3px 8px 1px #555}
 #content .text .left {width:480px; line-height:24px; float:left; padding-right:40px; border-right:1px solid #303030;}
 #content .text .right {width:280px; float:right; padding-left:10px; margin-top:-35px;}
 #content .text .right2 {width:280px; float:right; padding-left:10px; margin-top:-5px; }
-
+#content .text ul {list-style:none; padding:0px; padding-top:20px; margin:0px;}
+#content .text li {padding-bottom:15px;}
+#content .text li a {color:#f29400; text-decoration:none;}
+#content .text li a:hover {color:#0a72b5;}
 		
 /*** SLIDER ***/
 #slider {  width: 862px; margin-top:80px; margin-left:20px; border:1px solid #ccc;
@@ -121,24 +124,12 @@ box-shadow: 0 2px 8px 0 #888;}
 -webkit-box-shadow: 0 2px 10px 1px #ccc;
 box-shadow: 0 2px 10px 1px #ccc;}
 
-/*** WARENGRUPPEN ***/
-.warengruppen {float:left; margin-right:20px; border:1px solid #ccc; width:340px; background-color:#fff;
-
--webkit-box-shadow: 0 0 8px 3px #555;
-box-shadow: 0 0 8px 3px #555;}
-.warengruppen .hund {background-image:url(media/wg_hund.jpg); width:340px; height:364px; position:relative;}
-.warengruppen .hund .button {background-image:url(media/einklinker.png); width:196px; height:82px; position:absolute; bottom:20px; right:-18px;}
-.warengruppen .hund .button span {color:#fff; font-family: 'lobster_1.3regular', serif; font-size:24px; margin-left:50px; line-height:70px;}
-.warengruppen .hund .button span:hover {color:#084973;}
-.warengruppen .katze {background-image:url(media/wg_katze.jpg); width:340px; height:364px;position:relative;}
- .katze .button {background-image:url(media/einklinker.png); width:196px; height:82px; position:absolute; bottom:20px; right:-18px;}
-.katze .button span {color:#fff; font-family: 'lobster_1.3regular', serif; font-size:24px; margin-left:45px; line-height:70px;}
-.warengruppen .katze .button span:hover {color:#084973;}
-.warengruppen .kleintier {background-image:url(media/wg_kleintier.jpg); width:340px; height:364px;position:relative;}
-.warengruppen .kleintier .button {background-image:url(media/einklinker.png); width:196px; height:82px; position:absolute; bottom:20px; right:-18px;}
-.warengruppen .kleintier .button span {color:#fff; font-family: 'lobster_1.3regular', serif; font-size:24px; margin-left:45px; line-height:70px;}
-.warengruppen .kleintier .button span:hover {color:#084973;}
-
+/*** PRODUCT GROUPS ***/
+.group_container {width:850px; margin:30px 0 40px 20px;}
+.product_gr {border:1px solid #ccc; width:190px; height:200px; float:left; margin-right:20px;}
+.dash_gr {background-image:url(../media/dash.gif); background-repeat:repeat-x; width:830px; height:15px; margin:0 0 40px 20px;}
+/*** SUBCATEGORIES ***/
+#product_sub {border:1px solid red; width:830px; height:200px; display:none; margin:10px 0 20px 20px;}
 /*** FOOTER ***/
 #footer {background-color:#fff; border:1px solid #ccc; position:relative; z-index:9999;
 

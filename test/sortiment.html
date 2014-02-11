@@ -3,16 +3,18 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<title>HeimtierShop - Alles für Ihr Heimtier</title>
+<title>HeimtierShop - Alles für Ihr Heimtier | Unser Sortiment</title>
 <script src="js/jquery.js" type="text/javascript"></script>
 <script src="js/s3Slider.js" type="text/javascript"></script>
 
 <script>
-$(document).ready(function() {
-   $('#s3slider').s3Slider({
-      timeOut: 8000
-   });
-}); 
+$(document).ready(
+    function(){
+        $("#product_gr").click(function () {
+            $("#product_sub").show("slow");
+        });
+
+    });
 </script>
 </head>
 
@@ -83,65 +85,50 @@ $(document).ready(function() {
     </div>
     
     <div id="content">
-    
-   	<!-- SLIDER -->
-    <div id="slider">
-    <div id="s3slider">
-               <ul id="s3sliderContent">
-               <li class="s3sliderImage">
-                      <img src="media/slider1.jpg" alt="Der neue Heimtiershop">
-                      <span></span>
-                 </li>
-                  <li class="s3sliderImage">
-                      <img src="media/slider1a.jpg" alt="Unser Sortiment">
-                      <span></span>
-                  </li>
-                  <li class="s3sliderImage">
-                      <img src="media/slider3.jpg" alt="Der neue Heimtiershop">
-                      <span></span>
-                  </li>
-                  <li class="s3sliderImage">
-                      <img src="media/slider2.jpg" alt="Der neue Heimtiershop">
-                      <span></span>
-                  </li> 
-                 
-               </ul>
-	  </div>
-    </div>
-    <!-- END SLIDER -->
-        
         <!-- TEXT CONTENT -->
       <div class="text">
-            <h1>HeimtierShop - </h1>
-            <h4>Ihr zuverlässiger Partner ist zurück!</h4>
+            <h1>Unser Sortiment </h1>
+            <h4>Genau das richtige</h4>
             
             <div class="left">
-            <p>Seit 12 Jahren versorgen wir Sie mit allem, was Sie für Ihren Liebling brauchen - von hochwertigem Futter, Spielzeuge, Fellpflege bis hin zu Leinen und Leckerchen finden<br> 
-            Sie bei uns garantiert alles.<br> 
-            Was nicht auf Lager ist, kann von uns selbstverständlich gerne jederzeit bestelt werden!<br>
-            Und weil wir uns nirgendwo so wohl fühlen, wie in Rheindalen, sind wir nun wieder zurück und ganz für Sie da!<br>
-            <br>
-            Natürlich stehen wir Ihnen auch jederzeit beratend zur Seite.</p></div>
+            <p><span>Diese Seite befindet sich im Aufbau. Vielen Dank für Ihr Verständnis!</span><br>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br> 
+            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<br><br> 
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br> 
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
             
             <div class="right">
-            <h2>Unsere Öffnungszeiten:</h2>
-            <p>
-            Montags - Freitags: <br>
-            9:30 Uhr - 13:00 Uhr | 15:00 Uhr - 18:00 Uhr<br>
-            <br>
-            Mittagspause:<br> 	
-            13:00 Uhr - 15:00 Uhr<br>
-            <br>
-            Samstags: <br>
-            9:30 Uhr - 13:00 Uhr<br></p>
-    </div>
-            <div class="break"></div>
-            
-            
+            <h2>Beliebte Produkte:</h2>
+           		<ul>
+                <li><a href="#">» Royal Canin</a></li>
+                <li><a href="#">» Flexi</a></li>
+                <li><a href="#">» Kratzbäume</a></li>
+                <li><a href="#">» Spielzeug</a></li>
+   				</ul>
+            </div>
+      </div>
+  <!-- END TEXT CONTENT --> 
+        <div class="break"></div>
+             <!-- PRODUCT GROUPS -->
+             
+           	<div class="group_container">
+            <h2 id="anchor">Kategorien:</h2>
+            	<a href="#anchor" id="product_gr"><div class="product_gr"></div></a>
+                <a href="#anchor" id="product_gr"><div class="product_gr"></div></a>
+                <a href="#anchor" id="product_gr"><div class="product_gr"></div></a>
+                <a href="#anchor" id="product_gr"><div class="product_gr"></div></a>
+                <div class="break"></div>
         </div>
-        <!-- END TEXT CONTENT -->
-        
-            <!-- OVERLAY -->
+        <!-- END PRODUCT GROUPS -->   
+            <div class="dash_gr"></div>
+            
+        <!-- SUBCATEGORIES -->
+        	<div id="product_sub">
+            
+            </div>
+        <!-- END SUBCATEGORIES -->    
+            
+<!-- OVERLAY -->
             <div id="overlay">
             	<div class="group"><a href="sortiment.html"><img src="media/kratzbaum.jpg" alt="Kratzbäume"></a></div>
                 <div class="group"><a href="sortiment.html"><img src="media/katze.jpg" alt="Katzen"></a></div>
@@ -152,7 +139,7 @@ $(document).ready(function() {
                 <div class="break"></div>
             </div>
            <!-- END OVERLAY -->
-           
+       
                <div class="text">
                	<div class="left">
                 <h2>Sie haben Fragen? Möchten etwas bestellen?</h2>
@@ -171,7 +158,7 @@ Ihre Bestellung wird mit Unserer zusammengelegt.
                 </div>
                </div>
    <div class="break"></div>
-    </div>
+  </div>
     
     <div id="footer">
      <div class="ft_navigation">
@@ -181,7 +168,7 @@ Ihre Bestellung wird mit Unserer zusammengelegt.
                   <li><a href="#">» Leinen</a></li>
                   <li><a href="#">» Spielzeuge</a></li>
                   <li><a href="#">» Pansen und Co</a></li>
-             </ul>  
+       </ul>  
            	 <ul><h3>Meine Katze</h3>
                   <li><a href="#">» Royal Canin</a></li>
                   <li><a href="#">» Schmusi</a></li>
@@ -195,7 +182,7 @@ Ihre Bestellung wird mit Unserer zusammengelegt.
                   <li><a href="#">» Aquaristik</a></li>
                   <li><a href="#">» Nager</a></li>
                   <li><a href="#">» Spielzeuge</a></li>
-              </ul>  
+       </ul>  
               <ul><h3>Sonstiges</h3>
                   <li><a href="index.html">» Home</a></li>
                   <li><a href="#">» Leckerchen</a></li>
@@ -216,8 +203,8 @@ Ihre Bestellung wird mit Unserer zusammengelegt.
             	
             </ul>
              <div class="break"></div>
-        </div>
-    </div>    
+      </div>
+  </div>    
 </div>
 </body>
 </html>
