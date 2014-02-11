@@ -129,7 +129,10 @@ box-shadow: 0 2px 10px 1px #ccc;}
 .product_gr {border:1px solid #ccc; width:190px; height:200px; float:left; margin-right:20px;}
 .dash_gr {background-image:url(../media/dash.gif); background-repeat:repeat-x; width:830px; height:15px; margin:0 0 40px 20px;}
 /*** SUBCATEGORIES ***/
-#product_sub {border:1px solid red; width:830px; height:200px; display:none; margin:10px 0 20px 20px;}
+#product_sub1 {border:1px solid #ccc; width:830px; height:200px; display:none; margin:10px 0 20px 20px; padding:0 0 10px 10px;}
+#product_sub2 {border:1px solid #ccc; width:830px; height:200px; display:none; margin:10px 0 20px 20px;}
+#product_sub3 {border:1px solid #ccc; width:830px; height:200px; display:none; margin:10px 0 20px 20px;}
+#product_sub4 {border:1px solid #ccc; width:830px; height:200px; display:none; margin:10px 0 20px 20px;}
 /*** FOOTER ***/
 #footer {background-color:#fff; border:1px solid #ccc; position:relative; z-index:9999;
 
